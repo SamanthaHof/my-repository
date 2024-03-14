@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1135px;
+  margin: 0 auto;
+}
+/*.test {
+  border: 1px solid red;
+}
+*/
+h1 {
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+h1 span {
+  color: rgb(255, 0, 0);
+}
+
+/* HEADER */
+
+header {
+  height: 60px;
+  border-bottom: 1px solid gray;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: ’center;
+}
+
+header img {
+  height: 40px;
+}
+
+.navigation-header a:not(:first-child) {
+  margin-left: 20px;
+}
+
+.navigation-header button {
+  margin-left: 20px;
+}
+
+.navigation-header a {
+  padding: 10px;
+  border-radius: 18px;
+  border: 1px solid red;
+}
+.navigation-header a:hover {
+  background-color: grey;
+}
+
+/* MAIN. */
+
+main {
+  padding-top: 100px;
+}
+
+.navigation-menu {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+
+.navigation-menu > div {
+  padding: 12px;
+  border: 1px solid black;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.pictures-bloc {
+  height: 800px;
+  margin-bottom: 100px;
+  display: flex;
+  gap: 2px;
+}
+
+.left-bloc {
+  background-color: aqua;
+  height: 100%;
+  flex: 2;
+}
+.left-block img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.right-bloc {
+  background-color: blue;
+  flex: 1;
+  height: 100%;
+}
+.right-bloc > div {
+  height: calc(50% - 1px);
+  width: 100%;
+}
+
+.right-bloc > img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.right-bloc div:first-child {
+  margin-bottom: 2px;
+}
